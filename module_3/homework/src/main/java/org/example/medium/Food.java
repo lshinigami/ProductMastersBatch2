@@ -6,9 +6,9 @@ public class Food {
     public Food(String foodType) {
         this.foodType = foodType;
     }
-
     public String getFoodType() {
         return foodType;
     }
+
 
 }

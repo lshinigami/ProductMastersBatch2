@@ -20,8 +20,8 @@ public class Main {
         Animal cow = new Cow("cow");
         Animal horse = new Horse("horse");
 
-        Meat meat = new Meat("Meat");
-        Grass grass = new Grass("Grass");
+        Meat meat = new Meat();
+        Grass grass = new Grass();
         cat.eat(meat);
         cat.eat(grass);
         dog.eat(meat);

@@ -11,11 +11,12 @@ public class Cat extends Animal {
     }
     @Override
     public void eat(Food food) {
-        if (food.getFoodType().equalsIgnoreCase("meat")) {
+        if (food instanceof Meat) {
             System.out.println(name + " eats " + food.getFoodType());
         }
         else {
             System.out.println(name + " cannot eat " + food.getFoodType());
         }
     }
+
 }

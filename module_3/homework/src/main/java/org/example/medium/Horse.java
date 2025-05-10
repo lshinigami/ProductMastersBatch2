@@ -11,7 +11,7 @@ public class Horse extends Animal {
 
     @Override
     public void eat(Food food) {
-        if (food.getFoodType().equalsIgnoreCase("grass")) {
+        if (food instanceof Grass) {
             System.out.println(name + " eats " + food.getFoodType());
         }
         else {

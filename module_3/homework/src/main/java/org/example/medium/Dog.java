@@ -11,7 +11,7 @@ public class Dog extends Animal {
 
     @Override
     public void eat(Food food) {
-        if (food.getFoodType().equalsIgnoreCase("meat")) {
+        if (food instanceof Meat) {
             System.out.println(name + " eats " + food.getFoodType());
         }
         else {
