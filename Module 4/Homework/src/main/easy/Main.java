@@ -5,7 +5,7 @@ package easy;
 public class Main {
     public static void main(String[] args) {
         StringPrinter<String> printer = new StringPrinter<>();
-        printer.print("hello");
+        printer.print("hello.html");
 
     }
 
